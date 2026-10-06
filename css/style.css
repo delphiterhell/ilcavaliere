@@ -97,6 +97,10 @@ h1, h2 {
   padding-inline: var(--margine);
 }
 
+/* niente scorrimento laterale: gli elementi grafici che escono dai bordi
+   (soffi di vento, rosa dei venti) vengono tagliati qui */
+main { overflow-x: clip; }
+
 main > section { margin-bottom: var(--spazio); }
 
 .solo-sr {
