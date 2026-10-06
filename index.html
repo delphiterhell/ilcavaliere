@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Il Cavaliere — una settimana in barca a vela nel Dodecaneso</title>
+  <meta name="description" content="Settimane estive in barca a vela tra Leros, Kalymnos e Kos. Estate 2027.">
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ====================================================== HEADER -->
+  <header class="testata">
+    <a class="testata__nome" href="#top">Il Cavaliere</a>
+
+    <button class="testata__menu" type="button" aria-expanded="false" aria-controls="nav">
+      <span class="testata__menu-linee" aria-hidden="true"></span>
+      <span class="solo-sr">Menu</span>
+    </button>
+
+    <nav class="nav" id="nav" aria-label="Sezioni">
+      <a href="#rotta">La rotta</a>
+      <a href="#barca">La barca</a>
+      <a href="#settimane">Le settimane</a>
+      <a href="#info">Info</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ====================================================== HERO + INTRO
+         Le due sezioni stanno nella stessa "scena": scorrendo, la foto della
+         hero si dissolve in quella dell'intro (vedi css/style.css, "scena"). -->
+    <div class="scena">
+    <div class="scena__fissa">
+
+    <section class="hero">
+      <div class="pagina hero__dentro">
+      <div class="hero__testo">
+        <h1 class="hero__titolo">Una settimana a vela<br>nel Dodecaneso.</h1>
+        <a class="freccia" href="#settimane">→ sali a bordo</a>
+      </div>
+      </div>
+    </section>
+
+    <!-- lo sfondo (cavaliere.png) è impostato in css/style.css, blocco "5. Intro" -->
+    <section class="intro">
+      <div class="pagina intro__dentro">
+      <div class="intro__testo">
+        <h2 class="intro__titolo">A bordo de Il Cavaliere.</h2>
+        <p>Ci si sveglia dove abbiamo gettato l’ancora, si fa colazione in pozzetto e si parte quando c’è vento.</p>
+        <p>Alcuni giorni si naviga di più, altri quasi per niente.</p>
+        <p>Si nuota, si scende sulle isole, si cena nelle taverne e poi si torna a bordo.</p>      </div>
+      </div>
+    </section>
+
+    </div>
+    </div>
+
+    <!-- ====================================================== LA ROTTA -->
+    <section class="rotta pagina" id="rotta">
+      <!-- rosa dei venti: grande, sottile, tagliata dal bordo in alto a destra
+           (vedi css/style.css, "rosa dei venti") -->
+      <div class="rosa-campo" aria-hidden="true">
+        <svg class="rosa" viewBox="-215 -215 430 430" focusable="false">
+          <circle r="170"/>
+          <circle class="rosa__lieve" r="121" cx="0.8" cy="-0.6"/>
+          <circle r="5"/>
+          <path d="M0 -170L0 -158M33.2 -166.7L32.4 -162.8M65.1 -157.1L62.4 -150.6M94.4 -141.3L92.2 -138M120.2 -120.2L111.7 -111.7M141.3 -94.4L138 -92.2M157.1 -65.1L150.6 -62.4M166.7 -33.2L162.8 -32.4M170 0L158 0M166.7 33.2L162.8 32.4M157.1 65.1L150.6 62.4M141.3 94.4L138 92.2M120.2 120.2L111.7 111.7M94.4 141.3L92.2 138M65.1 157.1L62.4 150.6M33.2 166.7L32.4 162.8M0 170L0 158M-33.2 166.7L-32.4 162.8M-65.1 157.1L-62.4 150.6M-94.4 141.3L-92.2 138M-120.2 120.2L-111.7 111.7M-141.3 94.4L-138 92.2M-157.1 65.1L-150.6 62.4M-166.7 33.2L-162.8 32.4M-170 0L-158 0M-166.7 -33.2L-162.8 -32.4M-157.1 -65.1L-150.6 -62.4M-141.3 -94.4L-138 -92.2M-120.2 -120.2L-111.7 -111.7M-94.4 -141.3L-92.2 -138M-65.1 -157.1L-62.4 -150.6M-33.2 -166.7L-32.4 -162.8"/>
+          <path class="rosa__lieve" d="M0 -176 L0 176 M-176 0 L176 0 M-88 -88 L88 88 M88 -88 L-88 88"/>
+          <g><path transform="rotate(0)" d="M0 -158 L13 -13 L0 0 L-13 -13 Z"/><path transform="rotate(90)" d="M0 -158 L13 -13 L0 0 L-13 -13 Z"/><path transform="rotate(180)" d="M0 -158 L13 -13 L0 0 L-13 -13 Z"/><path transform="rotate(270)" d="M0 -158 L13 -13 L0 0 L-13 -13 Z"/></g>
+          <g class="rosa__lieve"><path transform="rotate(45)" d="M0 -100 L9 -9 L0 0 L-9 -9 Z"/><path transform="rotate(135)" d="M0 -100 L9 -9 L0 0 L-9 -9 Z"/><path transform="rotate(225)" d="M0 -100 L9 -9 L0 0 L-9 -9 Z"/><path transform="rotate(315)" d="M0 -100 L9 -9 L0 0 L-9 -9 Z"/></g>
+          <g class="rosa__lettere"><text x="0" y="-190">N</text><text x="190" y="0">E</text><text x="0" y="190">S</text><text x="-190" y="0">W</text><text class="rosa__piccola" x="96.2" y="-96.2">NE</text><text class="rosa__piccola" x="96.2" y="96.2">SE</text><text class="rosa__piccola" x="-96.2" y="96.2">SW</text><text class="rosa__piccola" x="-96.2" y="-96.2">NW</text></g>
+        </svg>
+      </div>
+      <!-- vento: quattro "soffi" disegnati, sullo sfondo della sezione
+           (vedi css/style.css, "soffi di vento") -->
+      <svg class="soffio soffio--a" viewBox="0 0 640 170" aria-hidden="true" focusable="false">
+        <path pathLength="1" style="--i:0;--o:1" d="M10 78 C 130 58, 260 56, 400 62 S 530 68, 560 66 A14 14 0 0 0 560 38 A9 9 0 0 0 560 56 A5 5 0 0 0 560 46">
+          <animate attributeName="d" dur="17s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" values="M10 78 C 130 58, 260 56, 400 62 S 530 68, 560 66 A14 14 0 0 0 560 38 A9 9 0 0 0 560 56 A5 5 0 0 0 560 46;M10 78 C 130 58, 260 56, 400 62 S 530 68, 560 66 A15.68 15.68 0 0 0 560 34.64 A10.08 10.08 0 0 0 560 54.8 A5.6 5.6 0 0 0 560 43.6;M10 78 C 130 58, 260 56, 400 62 S 530 68, 560 66 A14 14 0 0 0 560 38 A9 9 0 0 0 560 56 A5 5 0 0 0 560 46"/>
+        </path>
+        <path pathLength="1" style="--i:1;--o:0.8" d="M6 88 C 140 74, 300 80, 440 84 S 600 80, 634 70"/>
+        <path pathLength="1" style="--i:2;--o:0.9" d="M14 98 C 120 92, 260 100, 360 104 S 450 108, 480 108 A12 12 0 0 1 480 132 A7.5 7.5 0 0 1 480 117 A4 4 0 0 1 480 125">
+          <animate attributeName="d" dur="19s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" values="M14 98 C 120 92, 260 100, 360 104 S 450 108, 480 108 A12 12 0 0 1 480 132 A7.5 7.5 0 0 1 480 117 A4 4 0 0 1 480 125;M14 98 C 120 92, 260 100, 360 104 S 450 108, 480 108 A13.44 13.44 0 0 1 480 134.88 A8.4 8.4 0 0 1 480 118.08 A4.48 4.48 0 0 1 480 127.04;M14 98 C 120 92, 260 100, 360 104 S 450 108, 480 108 A12 12 0 0 1 480 132 A7.5 7.5 0 0 1 480 117 A4 4 0 0 1 480 125"/>
+        </path>
+        <path pathLength="1" style="--i:3;--o:0.55" d="M30 108 C 100 106, 180 114, 250 118"/>
+        <path pathLength="1" style="--i:4;--o:0.6" d="M22 68 C 110 48, 200 40, 300 40 S 380 42, 410 40"/>
+      </svg>
+      <svg class="soffio soffio--b" viewBox="0 0 560 150" aria-hidden="true" focusable="false">
+        <path pathLength="1" style="--i:0;--o:1" d="M8 70 C 110 84, 230 88, 340 80 S 470 62, 500 60 A13 13 0 0 0 500 34 A8 8 0 0 0 500 50 A4.5 4.5 0 0 0 500 41">
+          <animate attributeName="d" dur="19s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" values="M8 70 C 110 84, 230 88, 340 80 S 470 62, 500 60 A13 13 0 0 0 500 34 A8 8 0 0 0 500 50 A4.5 4.5 0 0 0 500 41;M8 70 C 110 84, 230 88, 340 80 S 470 62, 500 60 A14.56 14.56 0 0 0 500 30.88 A8.96 8.96 0 0 0 500 48.8 A5.04 5.04 0 0 0 500 38.72;M8 70 C 110 84, 230 88, 340 80 S 470 62, 500 60 A13 13 0 0 0 500 34 A8 8 0 0 0 500 50 A4.5 4.5 0 0 0 500 41"/>
+        </path>
+        <path pathLength="1" style="--i:1;--o:0.8" d="M4 82 C 130 98, 280 98, 400 90 S 520 84, 552 88"/>
+        <path pathLength="1" style="--i:2;--o:0.55" d="M16 94 C 100 106, 200 112, 300 110"/>
+        <path pathLength="1" style="--i:3;--o:0.65" d="M12 58 C 90 68, 170 72, 250 66 S 330 52, 360 50"/>
+      </svg>
+      <svg class="soffio soffio--c" viewBox="0 0 480 130" aria-hidden="true" focusable="false">
+        <path pathLength="1" style="--i:0;--o:1" d="M8 60 C 100 50, 200 52, 300 58 S 400 66, 420 66 A11 11 0 0 1 420 88 A7 7 0 0 1 420 74 A3.5 3.5 0 0 1 420 81">
+          <animate attributeName="d" dur="21s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" values="M8 60 C 100 50, 200 52, 300 58 S 400 66, 420 66 A11 11 0 0 1 420 88 A7 7 0 0 1 420 74 A3.5 3.5 0 0 1 420 81;M8 60 C 100 50, 200 52, 300 58 S 400 66, 420 66 A12.32 12.32 0 0 1 420 90.64 A7.84 7.84 0 0 1 420 74.96 A3.92 3.92 0 0 1 420 82.8;M8 60 C 100 50, 200 52, 300 58 S 400 66, 420 66 A11 11 0 0 1 420 88 A7 7 0 0 1 420 74 A3.5 3.5 0 0 1 420 81"/>
+        </path>
+        <path pathLength="1" style="--i:1;--o:0.8" d="M4 50 C 120 38, 260 40, 360 44 S 450 44, 474 38"/>
+        <path pathLength="1" style="--i:2;--o:0.55" d="M20 70 C 90 66, 150 70, 210 76"/>
+      </svg>
+      <svg class="soffio soffio--d" viewBox="0 0 700 190" aria-hidden="true" focusable="false">
+        <path pathLength="1" style="--i:0;--o:1" d="M10 90 C 150 70, 320 70, 470 78 S 610 84, 640 80 A15 15 0 0 0 640 50 A9.5 9.5 0 0 0 640 69 A5 5 0 0 0 640 59">
+          <animate attributeName="d" dur="17s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" values="M10 90 C 150 70, 320 70, 470 78 S 610 84, 640 80 A15 15 0 0 0 640 50 A9.5 9.5 0 0 0 640 69 A5 5 0 0 0 640 59;M10 90 C 150 70, 320 70, 470 78 S 610 84, 640 80 A16.8 16.8 0 0 0 640 46.4 A10.64 10.64 0 0 0 640 67.68 A5.6 5.6 0 0 0 640 56.48;M10 90 C 150 70, 320 70, 470 78 S 610 84, 640 80 A15 15 0 0 0 640 50 A9.5 9.5 0 0 0 640 69 A5 5 0 0 0 640 59"/>
+        </path>
+        <path pathLength="1" style="--i:1;--o:0.8" d="M6 100 C 160 84, 340 90, 500 96 S 660 98, 694 90"/>
+        <path pathLength="1" style="--i:2;--o:0.9" d="M14 110 C 130 102, 280 110, 390 116 S 500 122, 530 122 A12 12 0 0 1 530 146 A7.5 7.5 0 0 1 530 131 A4 4 0 0 1 530 139">
+          <animate attributeName="d" dur="19s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" values="M14 110 C 130 102, 280 110, 390 116 S 500 122, 530 122 A12 12 0 0 1 530 146 A7.5 7.5 0 0 1 530 131 A4 4 0 0 1 530 139;M14 110 C 130 102, 280 110, 390 116 S 500 122, 530 122 A13.44 13.44 0 0 1 530 148.88 A8.4 8.4 0 0 1 530 132.08 A4.48 4.48 0 0 1 530 141.04;M14 110 C 130 102, 280 110, 390 116 S 500 122, 530 122 A12 12 0 0 1 530 146 A7.5 7.5 0 0 1 530 131 A4 4 0 0 1 530 139"/>
+        </path>
+        <path pathLength="1" style="--i:3;--o:0.5" d="M30 120 C 110 118, 200 126, 280 132"/>
+        <path pathLength="1" style="--i:4;--o:0.65" d="M18 80 C 120 56, 240 46, 350 46 S 440 50, 470 46"/>
+        <path pathLength="1" style="--i:5;--o:0.45" d="M40 72 C 100 58, 160 50, 220 46"/>
+      </svg>
+
+      <header class="capo">
+        <h2>La rotta</h2>
+      </header>
+
+      <!-- tre tappe, ognuna con la sua foto: posizioni e misure sono volutamente
+           diverse (vedi css/style.css, blocco "6. Rotta") -->
+      <div class="rotta__diario">
+        <article class="scalo scalo--leros">
+          <figure class="foto f-larga">
+            <img src="leros.jpg" alt="Tramonto dietro le colline di Leros, visto dall’ancoraggio" loading="lazy">
+          </figure>
+          <div class="scalo__testo">
+            <p class="coord">37°08′ N · 26°51′ E</p>
+            <h3>Leros</h3>
+            <p class="scalo__dove">si parte da qui</p>
+          </div>
+        </article>
+
+        <p class="rotta__nota">
+          La rotta cambia.<br>
+          Dipende dal vento, dal mare<br>
+          e da dove abbiamo voglia di fermarci.
+        </p>
+
+        <article class="scalo scalo--kalymnos">
+          <figure class="foto f-larga">
+            <img src="kalymnos.jpg" alt="Le montagne di Kalymnos al tramonto, viste dal mare" loading="lazy">
+          </figure>
+          <div class="scalo__testo">
+            <h3>Kalymnos</h3>
+            <p class="scalo__dove">Vathy · Pserimos</p>
+          </div>
+        </article>
+
+        <article class="scalo scalo--kos">
+          <figure class="foto f-vert">
+            <img src="kos.jpg" alt="Una spiaggia di Kos sotto la scogliera" loading="lazy">
+          </figure>
+          <div class="scalo__testo">
+            <h3>Kos</h3>
+            <p class="scalo__dove">ultima tappa</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ====================================================== LA BARCA -->
+    <section class="barca pagina" id="barca">
+      <header class="capo">
+        <h2>La barca che ci porta tra le isole</h2>
+      </header>
+
+      <div class="barca__griglia">
+        <figure class="foto f-larga b1">
+          <img src="cavaliere lto.jpeg" alt="La prua" loading="lazy">
+       <!--    <figcaption>prua</figcaption> -->
+        </figure>
+        <figure class="foto f-alta b2">
+          <img src="cavalier5.png" alt="Le vele" loading="lazy">
+          <!-- <figcaption>vele</figcaption> -->
+        </figure>
+        <figure class="foto f-alta b3">
+          <img src="colazione.jpg" alt="Cime" loading="lazy">
+         <!--  <figcaption>corde</figcaption> -->
+        </figure>
+        <figure class="foto f-pano b4">
+          <img src="cucina.png" alt="La coperta" loading="lazy">
+          <figcaption>coperta</figcaption>
+        </figure>
+        <figure class="foto f-vert b5">
+          <img src="image.webp" alt="Il pozzetto" loading="lazy">
+          <figcaption>cabine</figcaption>
+        </figure>
+        <figure class="foto f-quadra b6">
+          <img src="pozzetto.png" alt="Una cabina" loading="lazy">
+          <figcaption>pozzetto esterno</figcaption>
+        </figure>
+        <figure class="foto f-vert b7">
+          <img src="coperta5.png" alt="Dettaglio di bordo" loading="lazy">
+          <figcaption>a bordo</figcaption>
+        </figure>
+      </div>
+
+      <!-- DATI TECNICI: modifica qui -->
+      <p class="barca__dati">
+        <span>13 m</span>
+        <span>3 cabine</span>
+        <span>6 ospiti</span>
+        <span>2 bagni</span>
+      </p>
+    </section>
+
+    <!-- ====================================================== LE SETTIMANE -->
+    <section class="settimane" id="settimane">
+      <div class="pagina">
+        <header class="capo">
+          <h2>Estate 2027</h2>
+        </header>
+
+        <div class="settimane__griglia">
+          <div>
+            <!-- SETTIMANE: una riga <li> per settimana.
+                 Per segnare una settimana come piena aggiungi class="completo"
+                 e scrivi "completo" al posto dei posti. -->
+            <ul class="agenda">
+              <li>
+                <span class="agenda__data">21 — 28 giugno</span>
+                <span class="agenda__posti">6 posti</span>
+              </li>
+              <li>
+                <span class="agenda__data">05 — 12 luglio</span>
+                <span class="agenda__posti">4 posti</span>
+              </li>
+              <li class="completo">
+                <span class="agenda__data">19 — 26 luglio</span>
+                <span class="agenda__posti">completo</span>
+              </li>
+              <li>
+                <span class="agenda__data">02 — 09 agosto</span>
+                <span class="agenda__posti">6 posti</span>
+              </li>
+            </ul>
+
+            <!-- PREZZO: modifica qui -->
+            <p class="prezzo">€ 599 <span>/ persona</span></p>
+
+            <!-- EMAIL: sostituisci l'indirizzo (compare anche più in basso) -->
+            <a class="freccia freccia--forte" href="mailto:ciao@ilcavaliere.example?subject=Disponibilit%C3%A0%20estate%202027">Chiedi disponibilità →</a>
+          </div>
+
+          <div class="incluso">
+            <div>
+              <h3>Incluso</h3>
+              <ul>
+                <li>posto a bordo</li>
+                <li>skipper</li>
+                <li>pernottamento in barca</li>
+                <li>utilizzo tender</li>
+                <li>dotazioni di bordo</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Non incluso</h3>
+              <ul>
+                <li>voli</li>
+                <li>cambusa</li>
+                <li>porti</li>
+                <li>ristoranti</li>
+                <li>carburante</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== FAQ -->
+    <section class="faq pagina" id="info">
+      <header class="capo">
+        <h2>Prima di salire a bordo</h2>
+      </header>
+
+      <div class="faq__lista">
+        <details>
+          <summary>Serve saper andare a vela?</summary>
+          <p>No.</p>
+        </details>
+        <details>
+          <summary>Dove si dorme?</summary>
+          <p>In barca, principalmente in rada o in porto.</p>
+        </details>
+        <details>
+          <summary>La rotta è sempre la stessa?</summary>
+          <p>No. Dipende dal vento e dalle condizioni del mare.</p>
+        </details>
+        <details>
+          <summary>Posso partecipare da sola/o?</summary>
+          <p>Sì.</p>
+        </details>
+        <details>
+          <summary>Quante persone ci sono a bordo?</summary>
+          <p>Al massimo sei ospiti, più lo skipper.</p>
+        </details>
+        <details>
+          <summary>Cosa devo portare?</summary>
+          <p>Poco. Una borsa morbida (niente trolley rigidi), costume, crema solare, un asciugamano, una felpa per la sera e scarpe che non lascino segni in coperta.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ====================================================== FINALE -->
+    <section class="finale">
+      <figure class="foto finale__foto">
+        <img src="farfalla.png" alt="Il Cavaliere all’ancora al tramonto" loading="lazy">
+      </figure>
+      <div class="pagina finale__testo">
+        <p class="finale__titolo">Ci vediamo a bordo.</p>
+        <a class="freccia" href="mailto:ciao@ilcavaliere.example">Scrivi per sapere quando partiamo →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================== FOOTER -->
+  <footer class="piede">
+    <div class="pagina piede__dentro">
+      <p class="piede__nome">Il Cavaliere</p>
+      <p class="piede__isole">Leros · Kalymnos · Kos</p>
+      <p class="piede__link">
+        <!-- CONTATTI: sostituisci i due link -->
+        <a href="https://instagram.com/" rel="noopener">Instagram</a>
+        <a href="mailto:ciao@ilcavaliere.example">Email</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

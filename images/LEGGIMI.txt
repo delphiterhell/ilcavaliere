@@ -1,0 +1,39 @@
+FOTOGRAFIE — metti qui i file con questi nomi esatti (.jpg).
+Il formato indicato è quello in cui la foto viene ritagliata nel sito.
+Larghezza consigliata: 2400 px per le grandi, 1400 px per le altre.
+
+HERO
+  hero.jpg              la barca, molto grande (verticale o orizzontale, viene ritagliata in altezza)
+
+LA ROTTA
+  leros-01.jpg          verticale 4:5
+  kalymnos-01.jpg       panoramica 21:9
+  kos-01.jpg            piccola, quasi quadrata
+
+LA BARCA
+  boat-detail-01.jpg    prua        orizzontale 3:2
+  boat-detail-02.jpg    vele        verticale 2:3
+  boat-detail-03.jpg    corde       piccola, quasi quadrata
+  boat-detail-04.jpg    coperta     panoramica 21:9
+  boat-detail-05.jpg    pozzetto    verticale 4:5
+  boat-detail-06.jpg    cabine      quasi quadrata
+  boat-detail-07.jpg    dettaglio   piccola verticale 4:5
+
+A BORDO
+  life-on-board-01.jpg  caffè in pozzetto     verticale 4:5
+  life-on-board-02.jpg  la prima nuotata      orizzontale 3:2
+  life-on-board-03.jpg  una baia              panoramica 21:9
+  life-on-board-04.jpg  pranzo                piccola, quasi quadrata
+  life-on-board-05.jpg  taverna               verticale 4:5
+  life-on-board-06.jpg  tender di sera        orizzontale 3:2
+
+LE ISOLE
+  leros-02.jpg          grande orizzontale 3:2
+  leros-03.jpg          piccola quasi quadrata (solo desktop)
+  kalymnos-02.jpg       panoramica 21:9
+  kalymnos-03.jpg       verticale 2:3
+  kos-02.jpg            verticale 4:5
+  kos-03.jpg            piccola orizzontale 3:2
+
+FINALE
+  finale.jpg            molto grande: barca all'ancora / tramonto / rada (16:8, su mobile 4:5)
